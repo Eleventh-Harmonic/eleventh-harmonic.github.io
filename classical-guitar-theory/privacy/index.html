@@ -28,7 +28,7 @@
     <section class="summary" aria-labelledby="summary">
       <h2 id="summary">Privacy at a glance</h2>
       <ul>
-        <li>The app sends nothing to us. It has no accounts, ads or tracking, and it does not use the microphone.</li>
+        <li>The app sends us nothing unless you are 16 or older and choose to share practice data. It has no accounts, ads or tracking, and it does not use the microphone.</li>
         <li>Your progress and settings are stored on your device, and in your Android backup if you use one.</li>
         <li>Google Play handles purchases. We do not receive your payment card or bank account details.</li>
         <li>Google’s billing library, which the app needs for purchases, sends Google technical diagnostics.</li>
@@ -44,6 +44,7 @@
         <li><a href="#not-collected">What the app does not do</a></li>
         <li><a href="#on-device">Information stored on your device</a></li>
         <li><a href="#purchases">Purchases through Google Play</a></li>
+        <li><a href="#shared-data">Practice data you choose to share</a></li>
         <li><a href="#billing-diagnostics">Diagnostics sent by Google Play Billing Library</a></li>
         <li><a href="#crash-reports">Crash reports from Google Play</a></li>
         <li><a href="#permissions">Android permissions</a></li>
@@ -72,12 +73,12 @@
       <dt>Contact</dt>
       <dd><a href="mailto:contact.eleventh.harmonic@gmail.com">contact.eleventh.harmonic@gmail.com</a></dd>
     </dl>
-    <p>Eleventh Harmonic is the name under which Milán Károly László publishes apps. It is not a registered company. Milán Károly László is the controller under the General Data Protection Regulation (GDPR) for the personal information we receive: emails, order information and the data sent by test builds. “We” and “us” in this policy mean Milán Károly László, publishing as Eleventh Harmonic.</p>
+    <p>Eleventh Harmonic is the name under which Milán Károly László publishes apps. It is not a registered company. Milán Károly László is the controller under the General Data Protection Regulation (GDPR) for the personal information we receive: emails, order information, practice data you choose to share and the data sent by test builds. “We” and “us” in this policy mean Milán Károly László, publishing as Eleventh Harmonic.</p>
     <p>Google is responsible for its own processing, described in the sections on purchases, diagnostics, crash reports and backups.</p>
 
     <h2 id="not-collected">What the app does not do</h2>
-    <p>The app you install from Google Play does not send information to us. It has no accounts or sign-in and does not use the advertising ID. It does not ask for permission to access your location, contacts, microphone, camera, photos or files.</p>
-    <p>We have not included any advertising, analytics, crash reporting or tracking software in the app. Google Play Billing Library, which the app needs for purchases, sends Google its own diagnostics, described in <a href="#billing-diagnostics">Diagnostics sent by Google Play Billing Library</a>. Apart from that library, the app does not connect to the internet itself.</p>
+    <p>The app you install from Google Play sends us nothing unless you are 16 or older and choose to share practice data (see <a href="#shared-data">Practice data you choose to share</a>). It has no accounts or sign-in and does not use the advertising ID. It does not ask for permission to access your location, contacts, microphone, camera, photos or files.</p>
+    <p>We have not included any third-party advertising, analytics, crash reporting or tracking software in the app. Google Play Billing Library, which the app needs for purchases, sends Google its own diagnostics, described in <a href="#billing-diagnostics">Diagnostics sent by Google Play Billing Library</a>. Apart from that library, the app connects to the internet only to send practice data you chose to share.</p>
     <p>Test builds for invited testers are different: they send us reports, as described in <a href="#test-builds">Test builds for invited testers</a>.</p>
 
     <h2 id="on-device">Information stored on your device</h2>
@@ -87,9 +88,10 @@
       <li>your settings, for example the app’s language, how notes are named, the practice reminder time and your Custom Reading choices;</li>
       <li>whether the full course is unlocked;</li>
       <li>a record of which exercises you opened and how each one ended;</li>
+      <li>your year of birth, and whether you chose to share practice data;</li>
       <li>a random number created when the app was installed.</li>
     </ul>
-    <p>The app does not send this information to us. Android keeps it in the app’s private storage, separate from other apps.</p>
+    <p>The app does not send this information to us, except the practice data you choose to share. <strong>Your year of birth never leaves your device.</strong> Android keeps it all in the app’s private storage, separate from other apps.</p>
     <p>If backup is turned on for your device, Android may include this information in your device backup and restore it on a new device. Google stores these backups in your Google Account under its own privacy policy. We do not have access to your backups.</p>
 
     <h2 id="purchases">Purchases through Google Play</h2>
@@ -97,6 +99,17 @@
     <p>The app uses Google Play Billing Library, made by Google, to talk to Google Play. When the app starts, it asks Google Play for the price of the unlock and whether your Google Account already owns it, for example after you reinstall the app. When you choose to buy, it starts the purchase and then confirms the completed purchase to Google Play.</p>
     <p>The app also asks Google Play for the country of your Google Play account, as a two-letter code such as <code>NL</code>. The app you install from Google Play keeps this code in memory only and does not store or send it. It is not your location.</p>
     <p>Google shares limited order information with us in the Google Play Console, for example the order number, product, price, date, status and the buyer’s country or region. Google also lets us find an order by the buyer’s email address, for example when you ask us for help with a purchase. We use this information to manage orders and refunds, to help you with purchases, and to meet our tax and accounting obligations. Our legal bases under the GDPR are our legitimate interest in managing purchases and helping you (Article 6(1)(f)) and our legal obligations (Article 6(1)(c)).</p>
+
+    <h2 id="shared-data">Practice data you choose to share</h2>
+    <p>When you first open the app, it asks your year of birth. The year stays on your device and is never sent. <strong>Only if you are certainly 16 or older</strong> (the app counts from the year alone, so it waits until the year after your 16th birthday year) does the app then ask whether you want to share practice data. Nothing is shared unless you choose Yes. You can turn it on or off at any time in Settings, under <strong>Share practice data</strong>.</p>
+    <p>If you choose Yes, the app sends us:</p>
+    <ul>
+      <li>a record of which exercises you open, how long they last and how they end, and how many questions you answered and how many were right. It contains no free text: every value is a fixed name the app defines, a count, or a yes or no. It never records what you wrote, played or answered, only how many answers were right;</li>
+      <li>reports of errors inside the app: the error message the app’s own code wrote (shortened), the technical stack trace, how often it happened and on which screen;</li>
+      <li>with each record: the random number created when the app was installed, the app version, the device brand and model, the Android version, the country of your Google Play account (a two-letter code such as <code>NL</code>, not your location) and the app’s language.</li>
+    </ul>
+    <p>Nothing recorded before you chose Yes is sent, and nothing is sent after you turn it off. The app has no button for sending screenshots, recordings or messages; that exists only in test builds.</p>
+    <p>We use this data only to find problems in the app and to see which lessons need work. Our legal basis under the GDPR is your consent (Article 6(1)(a)). You can withdraw it at any time in Settings; that stops further sending but does not undo what was already sent, which we delete when you ask. The data goes over an encrypted connection to a database that Supabase, Inc. hosts for us. We keep it only as long as we need it for these purposes.</p>
 
     <h2 id="billing-diagnostics">Diagnostics sent by Google Play Billing Library</h2>
     <p>When the app uses Google Play Billing Library, including when the app starts, the library may send Google technical information about its own operation, such as whether billing requests succeed or fail and problems with the connection to Google Play. Google’s software adds basic device and app details to this information: Android version, device model and manufacturer, system build, language and country setting, time zone, network type, mobile network operator code and the app’s version number.</p>
@@ -111,7 +124,7 @@
       <li><strong>Run at startup:</strong> sets the practice reminder again after your device restarts.</li>
       <li><strong>Vibration:</strong> added by the notification library, so that a reminder can vibrate.</li>
       <li><strong>Google Play billing:</strong> needed for the in-app purchase.</li>
-      <li><strong>Internet and network state:</strong> added by Google Play Billing Library so it can talk to Google Play and send its diagnostics to Google.</li>
+      <li><strong>Internet and network state:</strong> added by Google Play Billing Library so it can talk to Google Play and send its diagnostics to Google. The app also uses the internet to send practice data you chose to share.</li>
     </ul>
 
     <h2 id="notifications">The practice reminder</h2>
@@ -121,7 +134,7 @@
     <p><strong>Rate this app</strong> in Settings opens the Google Play Store app, and only when you tap it. The app does not see what you write there. Google Play’s own terms and privacy policy apply to what you do in it.</p>
 
     <h2 id="test-builds">Test builds for invited testers</h2>
-    <p>Before a release, we give a separate test build of the app to a small group of invited adult testers. <strong>This section does not apply to the app you install from Google Play for everyone.</strong> The test build sends us three kinds of reports.</p>
+    <p>Before a release, we give a separate test build of the app to a small group of invited adult testers. <strong>This section does not apply to the app you install from Google Play for everyone.</strong> The test build asks the same year of birth and the same question about practice data. It sends usage and error reports only if the tester chose Yes, and a bug report only when the tester taps Send.</p>
     <p>Every report includes the random number created when the app was installed. It is not linked to any account, name, email address or advertising ID. It shows that several reports came from the same installation, but not who sent them. Uninstalling the app removes it from the device, but a device backup can restore it if the app is installed again.</p>
 
     <h3 id="test-bug-reports">Bug reports a tester sends</h3>
@@ -147,13 +160,13 @@
     <p>We do not sell or rent personal information, and we do not use or share it for advertising. We do not use it for automated decision-making or profiling.</p>
     <ul>
       <li><strong>Google</strong> receives information as the provider of Google Play (purchases, order information and crash reports), Google Play Billing Library (diagnostics) and Gmail (emails you send us). For Google Play and the billing library, Google decides how it uses the information, under its own terms and privacy policy.</li>
-      <li><strong>Supabase, Inc.</strong> hosts the database that receives reports from test builds, and processes them only to provide that service.</li>
+      <li><strong>Supabase, Inc.</strong> hosts the database that receives practice data you choose to share and reports from test builds, and processes them only to provide that service.</li>
       <li><strong>Authorities or others</strong> may receive information if the law requires us to disclose it.</li>
     </ul>
     <p>We do not give your information to anyone else.</p>
 
     <h2 id="security">Security</h2>
-    <p>Android keeps the information the app stores private to the app. Google Play Billing Library sends its diagnostics over an encrypted connection, and test builds send their reports over an encrypted connection. We take reasonable steps to protect the emails and reports we receive, but no method of storage or transmission is completely secure.</p>
+    <p>Android keeps the information the app stores private to the app. Google Play Billing Library sends its diagnostics over an encrypted connection, and practice data and test reports are sent over an encrypted connection. We take reasonable steps to protect the emails and reports we receive, but no method of storage or transmission is completely secure.</p>
 
     <h2 id="retention">Retention and deletion</h2>
     <ul>
@@ -161,14 +174,15 @@
       <li><strong>Your purchase</strong> is linked to your Google Account, so you can restore it after you reinstall the app. Uninstalling the app does not remove it. Google keeps purchase records under its own policies.</li>
       <li><strong>Order information</strong> stays in the Google Play Console under Google’s retention rules. If we keep copies for tax or accounting, we keep them only as long as those laws require.</li>
       <li><strong>Billing Library diagnostics and crash reports</strong> are kept by Google under its own policies.</li>
+      <li><strong>Practice data you shared</strong> is kept only as long as we need it to find problems and improve the lessons, and is deleted when you ask.</li>
       <li><strong>Test build reports</strong> are kept only as long as we need them to find and fix problems, and are deleted when the tester asks.</li>
       <li><strong>Emails</strong> are kept as long as we need them to answer you and to follow up on the problem you reported. We delete them when you ask, unless the law requires us to keep them.</li>
     </ul>
-    <p>To delete the app’s data from your device, uninstall the app, or open your device settings, go to Apps, then Classical Guitar, then Storage, and clear the storage. To have your emails or test reports deleted, write to us.</p>
+    <p>To delete the app’s data from your device, uninstall the app, or open your device settings, go to Apps, then Classical Guitar, then Storage, and clear the storage. To have your emails, shared practice data or test reports deleted, write to us.</p>
 
     <h2 id="children">Children</h2>
     <p>Classical Guitar Theory is designed for learners aged 9 and older, children and adults alike. Google Play lists it for these ages and applies its Families policy to it.</p>
-    <p>The app you install from Google Play collects no personal information from anyone, children included. It has no accounts, ads or tracking, it sends nothing to us, and it does not ask for permission to access location, the microphone, the camera or contacts. Google processes information for purchases, billing diagnostics and crash reports as described above, and Google Play’s parental controls and purchase approvals apply to purchases.</p>
+    <p>The app you install from Google Play collects no personal information from children. It has no accounts, ads or tracking, and it does not ask for permission to access location, the microphone, the camera or contacts. <strong>Learners under 16 are never asked to share practice data, and the app sends nothing to us from them.</strong> Their year of birth stays on their device. Google processes information for purchases, billing diagnostics and crash reports as described above, and Google Play’s parental controls and purchase approvals apply to purchases.</p>
     <p>We do not knowingly collect personal information from children under 13. Test builds are given only to invited adult testers. If you believe a child has sent us personal information, for example by email, contact us and we will delete it.</p>
 
     <h2 id="rights">Your rights</h2>
@@ -179,7 +193,7 @@
       <li>restrict or object to its use;</li>
       <li>receive it in a portable format.</li>
     </ul>
-    <p>The app you install from Google Play does not collect or transmit personal information to us. If you contact us by email, we receive the information you choose to share. If you purchase the unlock, we can access limited order information through Google Play Console. If you are a tester, we hold the reports your test build sent; because they are linked only to a random number, tell us the date and device of a report so that we can find them. We do not maintain our own customer database. To use your rights, email us. We normally answer within one month.</p>
+    <p>The app you install from Google Play transmits nothing to us unless you chose to share practice data. If you contact us by email, we receive the information you choose to share. If you purchase the unlock, we can access limited order information through Google Play Console. If you chose to share practice data, or you are a tester, we hold what your app sent; because it is linked only to a random number, tell us the dates and the device so that we can find it. You can stop sharing practice data at any time in Settings. We do not maintain our own customer database. To use your rights, email us. We normally answer within one month.</p>
     <p>You can also complain to a data protection authority: in the Netherlands, the <a href="https://autoriteitpersoonsgegevens.nl/en">Autoriteit Persoonsgegevens</a>, or the authority in the country where you live or work.</p>
     <p>Google is responsible for the information it processes for Google Play, purchases, backups, crash reports and billing diagnostics. You can manage much of it in your <a href="https://myaccount.google.com/">Google Account</a>.</p>
 
@@ -187,6 +201,7 @@
     <p>We may update this policy when the app, the services it uses or the law changes. We will post every update on this page and change the “Last updated” date. If a change is significant, we will also mention it in the app’s release notes.</p>
     <h3 id="history">Version history</h3>
     <ul>
+      <li><time datetime="2026-11-03">November 3, 2026</time>: learners 16 and older can choose to share practice data; the app asks the year of birth, which stays on the device.</li>
       <li><time datetime="2026-11-03">November 3, 2026</time>: the app is designed for ages 9 and older; it no longer declares Bluetooth or location permissions.</li>
       <li><time datetime="2026-11-03">November 3, 2026</time>: first version.</li>
     </ul>
