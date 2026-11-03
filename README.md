@@ -12,12 +12,14 @@ analytics, no external fonts.
 |---|---|
 | Home | <https://eleventh-harmonic.github.io/> |
 | Metronome Eleven privacy policy | <https://eleventh-harmonic.github.io/metronome/privacy/> |
+| Classical Guitar Theory privacy policy | <https://eleventh-harmonic.github.io/classical-guitar-theory/privacy/> |
 
 ## Structure
 
 ```text
 index.html                    home: the brand and its apps
 metronome/privacy/index.html  Metronome Eleven privacy policy
+classical-guitar-theory/privacy/index.html  Classical Guitar Theory privacy policy
 assets/style.css              shared style (light and dark)
 assets/favicon.svg
 .nojekyll                     serve files as they are (no Jekyll)
